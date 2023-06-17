@@ -14,7 +14,7 @@ spec:
     spec:
       containers:
       - name: my-app
-        image: aravind46/html
+        image: arunmagi/new-html
         ports:
         - containerPort: 80
 ---
