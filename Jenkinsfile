@@ -11,7 +11,7 @@ node{
         sh "docker push arunmagi/html"
     }
     stage ("container"){
-        sh "docker rm -f html-app"
+        sh "docker rm -f app"
         sh "docker run -d  --name html-app  -p 84:80 arunmagi/html"
     }
 }
